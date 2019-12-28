@@ -1,0 +1,61 @@
+ /**
+   * 加法计算
+   *
+   * @param num1 加数1
+   * @param num2 加数2
+   * @return 返回值
+   */
+  public static String add(String num1, String num2) {
+    // 基本参数校验,非空校验
+    boolean isValided = requiredNotBlank(num1, num2);
+    if (!isValided) {
+      System.err.println("参数异常,两个数不可以为空,不可以为null");
+      return null;
+    }
+
+    /**
+     * 长度校验,基于诉求,这个要确定一下大数的边界,最大是多大,难不成还100万个单位的?
+     *
+     * 所以即使我说了考虑大数, 但是也要问一下范围,假设数值最大长度支持64位
+     *
+     * 到目前没一个人问过我,长度最大限制是多少!!!
+     */
+    if (!requiredLength(num1, num2)) {
+      System.err.println("参数异常,两个数长度超过了最大限制");
+      return null;
+    }
+
+    /**
+     * 校验数值是否合法
+     */
+    boolean isNum1Valid = requiredCommonsNumeric(num1);
+    if (!isNum1Valid) {
+      System.err.println("num1不合法,不信你看看num1是啥:[" + num1 + "]");
+      return null;
+    }
+    boolean isNum2Valid = requiredCommonsNumeric(num2);
+    if (!isNum2Valid) {
+      System.err.println("num2不合法,不信你看看num2是啥:[" + num2 + "]");
+      return null;
+    }
+
+    /**
+     * 校验数据是否是数值,比如1..1,或者.11
+     */
+    boolean isNum1StrictValid = requiredStrictNumber(num1);
+    if (!isNum1StrictValid) {
+      System.err.println("num1不合法,不信你看看num1是啥:[" + num1 + "]");
+      return null;
+    }
+    boolean isNum2StrictValid = requiredStrictNumber(num2);
+    if (!isNum2StrictValid) {
+      System.err.println("num2不合法,不信你看看num2是啥:[" + num2 + "]");
+      return null;
+    }
+
+    // 包装数值,做一下trim
+    BigDecimal decimal1 = new BigDecimal(num1.trim());
+    BigDecimal decimal2 = new BigDecimal(num2.trim());
+
+    return decimal1.add(decimal2).toString();
+  }
