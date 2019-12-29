@@ -302,23 +302,7 @@ public class mumuTopic1 {
   }
 
   private static boolean requiredStrictNumber(String str) {
-    int sum = 0;
-    char[] chars = str.toCharArray();
-    if (chars[0] == '.' || chars[chars.length - 1] == '.') {
-      return false;
-    }
-
-    for (int i = 0; i < chars.length; i++) {
-      if (chars[i] == '.') {
-        sum++;
-      }
-
-      if (chars[i] == '-' && i != 0) {
-        return false;
-      }
-    }
-
-    return sum <= 1;
+    return requiredStrictNumber(str);
   }
 
   private static boolean requiredCommonsNumeric(String str) {
@@ -343,14 +327,6 @@ public class mumuTopic1 {
   }
 
   private static boolean requiredNotBlank(String str1, String str2) {
-    if (null == str1 || null == str2) {
-      return false;
-    }
-
-    if (str1.trim().isEmpty() || str2.trim().isEmpty()) {
-      return false;
-    }
-
-    return true;
+    return requiredNotBlank(str1, str2);
   }
 }
