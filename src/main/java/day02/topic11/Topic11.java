@@ -1,4 +1,4 @@
-package day02.Topic11;
+package day02.topic11;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -9,13 +9,13 @@ import java.util.Map;
 /**
  * 作业11: I/O + 集合 + 对象 练习题
  *
- * 文件: 位置随意,数据格式: id, name, gender, score, address
+ * 文件: 位置随意,数据格式: id, name, age, score, address
  *
  * 读取出数据之后,放到对象中User
  *
  * 在将User放入集合中
  *
- * 集合中的User,按照address,gender,分组,且每个组内的分数还要排序
+ * 集合中的User,按照address,age,分组,且每个组内的分数还要排序
  *
  * - 如: 北京,男 ; 上海,女
  *
@@ -30,7 +30,7 @@ public class Topic11 {
 
     public static void main(String[] args) throws IOException {
         // 1.读文件
-        List<String> result = readFile("E:\\codingFiles\\homework\\src\\main\\java\\day02\\Topic11\\test.log");
+        List<String> result = readFile("E:\\codingFiles\\homework\\src\\main\\java\\day02\\topic11\\case");
 
         // 2.解析数据
         List<User> users= parse(result);
@@ -62,13 +62,13 @@ public class Topic11 {
         Map<String, List<User>> result = new HashMap<>();
 
         for (User user: users){
-            String userName = user.getName();
-            if (result.containsKey(userName)){
-                result.get(userName).add(user);
+            String userAddress = user.getAddress();
+            if (result.containsKey(userAddress)){
+                result.get(userAddress).add(user);
             }else {
                 ArrayList<User> userList = new ArrayList<>();
                 userList.add(user);
-                result.put(userName, userList);
+                result.put(userAddress, userList);
             }
         }
 
@@ -138,6 +138,9 @@ public class Topic11 {
 
     /**
      * 1.读文件
+     * @param path
+     * @return
+     * @throws IOException
      */
     private static List<String> readFile(String path) throws IOException {
         List<String> result = new ArrayList<>();
@@ -153,12 +156,12 @@ public class Topic11 {
             }
             return result;
         }catch (Exception ex){
-            System.out.println("为啥出错, ");
+            System.out.println("为啥出错：");
             throw new IllegalStateException(ex);
         }
 
         /**
-         * 最原始的写法
+         * 最原始写法
          */
     //    try {
     //        reader = new BufferedReader(new FileReader(file));
@@ -181,13 +184,15 @@ public class Topic11 {
     }
 
     /**
-     * 2.对数据解析
+     * 2.解析数据
+     * @param resultData
+     * @return
      */
     private static List<User> parse(List<String> resultData){
         List<User> users = new ArrayList<>();
 
-        for (String datum: resultData){
-            String[] splitArr = datum.split(",");
+        for (String data: resultData){
+            String[] splitArr = data.split(",");
             Integer id = Integer.parseInt(splitArr[0]);
             String name = splitArr[1];
             Integer age = Integer.parseInt(splitArr[2]);

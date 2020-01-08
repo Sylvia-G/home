@@ -32,7 +32,7 @@ public class Topic4 {
         // new时传入指定大小
         IArray array = new IArray(5);
 
-        // 添加元素
+        System.out.println("---------添加元素---------");
         array.add(100);
         array.add(99);
         array.add(98);
@@ -41,40 +41,46 @@ public class Topic4 {
         // 数组遍历
         array.toString();
 
-        // 按照下标删除元素
+        System.out.println("---------按照下标删除元素---------");
         array.delIndex(0);
         array.delIndex(100);    // 删除不存在下标
         array.toString();
 
-        // 按照指定元素删除元素
+        System.out.println("---------按照指定元素删除元素---------");
         array.delValue(97);
         array.delValue(12);    // 删除不存在元素
         array.toString();
 
-        // 根据给定元素,找到索引位置
+        System.out.println("---------根据给定元素,找到索引位置---------");
         System.out.println("元素99的位置是:" + array.searchIndex(99));
         System.out.println("元素12的位置是:" + array.searchIndex(12));    // 查找不存在元素
         array.toString();
 
         // 根据给定元素, 跨度寻找索引位置
+        System.out.println("---------根据给定元素, 跨度寻找索引位置---------");
         System.out.println("元素96的位置是:" + array.acrossSearchIndex(96,2));
         System.out.println("元素12的位置是:" + array.acrossSearchIndex(12,2));    // 查找不存在元素
         array.toString();
 
         // 判断数组是否为空
+        System.out.println("---------判断数组是否为空---------");
         System.out.println("数组不为空：" + array.isNotEmpty());
 
     }
 }
 
 class IArray{
-    int count;
-    int indexFlag=0;
-    int[] iarray;
+    private int count;
+    private int indexFlag=0;
+    private int[] iarray;
 
-    public IArray(int count) {
+    IArray(int count) {
         this.count = count;
         this.iarray = new int[count];
+    }
+
+    public int getIndexFlag() {
+        return indexFlag;
     }
 
     public void add(int value){

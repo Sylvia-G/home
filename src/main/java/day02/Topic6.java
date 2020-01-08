@@ -1,6 +1,8 @@
 package day02;
 
 
+import org.junit.Test;
+
 /**
  * 作业6: 使用数组实现一个栈,元素整型即可
  *
@@ -19,27 +21,25 @@ package day02;
  * @author haoc
  */
 public class Topic6 {
-  public static void main(String[] args) {
-//    test1();
-//    test2();
-//    test3();
-//    test4();
-//    test5();
-    test6();
-  }
 
-  // 入栈, 不超过栈初始定义大小
-  public static void test1(){
-    IntStack intstack = new IntStack();
+  /**
+   * 入栈, 不超过栈初始定义大小
+   */
+  @Test
+  public void test1(){
+    IntStackBak intstack = new IntStackBak();
     intstack.enqueue(10);
     intstack.enqueue(1000);
     System.out.println("入栈, 不超过栈初始定义大小");
     intstack.toString();
   }
 
-  // 入栈, 刚好等于栈初始定义大小
-  public static void test2(){
-    IntStack intstack = new IntStack();
+  /**
+   * 入栈, 刚好等于栈初始定义大小
+   */
+  @Test
+  public void test2(){
+    IntStackBak intstack = new IntStackBak();
     intstack.enqueue(10);
     intstack.enqueue(1000);
     intstack.enqueue(20);
@@ -49,9 +49,12 @@ public class Topic6 {
     intstack.toString();
   }
 
-  // 入栈, 超过栈初始定义的大小
-  public static void test3(){
-    IntStack intstack = new IntStack();
+  /**
+   * 入栈, 超过栈初始定义的大小
+   */
+  @Test
+  public void test3(){
+    IntStackBak intstack = new IntStackBak();
     intstack.enqueue(10);
     intstack.enqueue(1000);
     intstack.enqueue(20);
@@ -62,9 +65,12 @@ public class Topic6 {
     intstack.toString();
   }
 
-  // 连续多次出栈arr[0], 栈中只有1个元素
-  public static void test4(){
-    IntStack intstack = new IntStack();
+  /**
+   * 连续多次出栈arr[0], 栈中只有1个元素
+   */
+  @Test
+  public void test4(){
+    IntStackBak intstack = new IntStackBak();
     intstack.enqueue(10);
     System.out.println("出栈前: " );
     intstack.toString();
@@ -77,9 +83,12 @@ public class Topic6 {
 
   }
 
-  // 连续多次出栈arr[0], 栈中只有多个元素
-  public static void test5(){
-    IntStack intstack = new IntStack();
+  /**
+   * 连续多次出栈arr[0], 栈中只有多个元素
+   */
+  @Test
+  public void test5(){
+    IntStackBak intstack = new IntStackBak();
     intstack.enqueue(10);
     intstack.enqueue(1000);
     System.out.println("出栈前: " );
@@ -91,9 +100,13 @@ public class Topic6 {
     System.out.println("再次出栈: " );
     intstack.toString();
   }
-  // 连续多次出栈再入栈, 栈尾index<栈头index, 入栈栈容量不满(测试结果:下标1:999 下标2: 20 下标3: 1000 下标4: 30)
-  public static void test6(){
-    IntStack intstack = new IntStack();
+
+  /**
+   * 连续多次出栈再入栈
+   */
+  @Test
+  public void test6(){
+    IntStackBak intstack = new IntStackBak();
     intstack.enqueue(10);
     intstack.enqueue(1000);
     intstack.enqueue(20);
@@ -113,59 +126,71 @@ public class Topic6 {
 
   }
 
+  /**
+   * 获取栈顶元素
+   */
+  @Test
+  public void test7(){
+    IntStackBak intstack = new IntStackBak();
+    intstack.enqueue(10);
+    intstack.enqueue(1000);
+    System.out.println(intstack.getFront());
+  }
 
-}
+  /**
+   * 实现获取栈的大小
+   */
+  @Test
+  public void test8(){
+    IntStackBak intstack = new IntStackBak();
+    intstack.enqueue(10);
+    intstack.enqueue(1000);
+    System.out.println(intstack.getLength());
+  }
 
-/**
- * 例如
- */
-class IntStack {
-  int headIndex = 0;
-  int tailIndex = 0;
+  /**
+   * 判断栈是否为空
+   */
+  @Test
+  public void test9(){
+    IntStackBak stackNotNull = new IntStackBak();
+    stackNotNull.enqueue(10);
+    stackNotNull.enqueue(1000);
+    System.out.println(stackNotNull.isEmpty());
+
+    IntStackBak stackNull = new IntStackBak();
+    System.out.println(stackNull.isEmpty());
+  }
+
+  static class IntStackBak {
+//  int headIndex = 0;
+  private int tailIndex = 0;
   int defaultSize = 5;
-  int[] stackarr;
+  public int[] stackarr;
 
+  public IntStackBak() {
+    this.stackarr = new int[this.defaultSize];
+  }
 
   void enqueue(int element) {
     // 栈大小为空
-    if (this.headIndex == 0 && this.tailIndex == 0){
+    if (this.tailIndex == 0){
       this.stackarr = new int[this.defaultSize];
-      this.stackarr[headIndex] = element;
-      this.tailIndex += 1;
-    }
-    else if (0 <= this.headIndex && this.headIndex < this.tailIndex && this.tailIndex <= this.stackarr.length-1){
       this.stackarr[tailIndex] = element;
       this.tailIndex += 1;
     }
-    else if(this.tailIndex == this.stackarr.length-1){
-      int copyarr1[] = new int[this.stackarr.length + defaultSize];
+    else if (0 <=  this.tailIndex && this.tailIndex <= this.stackarr.length-1){
+      this.stackarr[tailIndex] = element;
+      this.tailIndex += 1;
+    }
+    else if(this.tailIndex == this.stackarr.length){
+      int copyarr[] = new int[this.stackarr.length + defaultSize];
       for (int i=0; i< this.stackarr.length; i++){
-        copyarr1[i] = this.stackarr[i];
+        copyarr[i] = this.stackarr[i];
       }
-      this.stackarr = copyarr1;
+      this.stackarr = copyarr;
       this.stackarr[tailIndex] = element;
       this.tailIndex += 1;
-    }
-
-    else if (0 < this.tailIndex  && this.tailIndex < this.headIndex && this.headIndex <= this.stackarr.length-1){
-      if (this.tailIndex > 0 && this.tailIndex < this.headIndex){
-        this.stackarr[this.tailIndex] = element;
-        this.tailIndex += 1;
-      }
-    }
-    // 需要防止tailIndex = headIndex
-    else if (this.tailIndex > 0 && this.tailIndex == this.headIndex){
-      int copyarr2[] = new int[this.stackarr.length + defaultSize];
-      int indexflag = 0;
-      for (int i = this.headIndex; i < this.stackarr.length-1; i++){
-        copyarr2[indexflag] = this.stackarr[i];
-        indexflag += 1;
-      }
-      for (int j = 0; j < this.tailIndex; j++){
-        copyarr2[indexflag] = this.stackarr[j];
-        indexflag += 1;
-      }
-
     }
   }
 
@@ -173,39 +198,43 @@ class IntStack {
    * 这个是取出栈顶元素,栈中就没有这个元素了
    */
   void dequeue() {
-    this.headIndex += 1;
+    if (this.tailIndex==0){
+      System.out.println("栈已空，不能再出栈");
+    }else {
+      this.stackarr[this.tailIndex-1]=0;
+      this.tailIndex--;
+    }
+
+
   }
+
 
   /**
    * 获取栈顶元素,意味着只是读取,这个元素还还会存储在栈中
    */
   int getFront() {
-    return -1;
+    return this.stackarr[0];
   }
 
-  int length() {
-    return -1;
+  int getLength() {
+    return this.tailIndex;
   }
 
   boolean isEmpty() {
-    boolean isempty = true;
-    if (this.tailIndex != 0){
-      isempty = false;
+    if(this.tailIndex==0){
+      return true;
+    }else {
+      return false;
     }
-    return isempty;
   }
 
 
   @Override
   public String toString() {
-    //要判断栈头栈尾位置，区别打印
-    for (int i = this.headIndex; i<this.stackarr.length-1; i++){
-      System.out.print("下标" + i + ": " + this.stackarr[i] + " " );
+    for (int arr : this.stackarr) {
+      System.out.println(arr);
     }
-    for (int j = 0; j < this.tailIndex-1; j++) {
-      System.out.print("下标" + j + ": " + this.stackarr[j] + " " );
-    }
-    System.out.println();
     return null;
   }
+}
 }

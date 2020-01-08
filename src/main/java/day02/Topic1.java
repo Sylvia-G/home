@@ -1,5 +1,7 @@
 package day02;
 
+import org.junit.Test;
+
 /**
  * 作业1: 实现99乘法表
  *
@@ -18,7 +20,9 @@ package day02;
  * @author haoc
  */
 public class Topic1 {
-    public static void main(String[] args) {
+
+    @Test
+    public void Nine() {
         for(int i=1; i<=9; i++){
             for (int j=1;j<=i; j++){
                 int sum = i*j;

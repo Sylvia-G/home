@@ -2,8 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf783a2b-f564-4415-89d2-ab7351d2fd4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02/topic07/BlackBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02/topic07/Circular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02/topic07/MathTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02/topic07/Medium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02/topic07/Sharp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02/topic07/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02/topic08/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02/topic08/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02/topic08/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02/topic10/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02/topic11/case" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02/topic9/BMW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02/topic9/Cars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02/topic9/CountryRoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02/topic9/Highway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02/topic9/Mercedes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day02/topic9/Road.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/day01/topic1/Div.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day01/topic1/Div.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day02/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day02/Topic1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day02/Topic1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day02/Topic10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day02/topic10/Topic10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day02/Topic11/Topic11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day02/topic11/Topic11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day02/Topic11/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day02/topic11/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day02/Topic11/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day02/Topic4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day02/Topic4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day02/Topic5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day02/Topic5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day02/Topic6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day02/Topic6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day02/Topic7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day02/topic07/Topic7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day02/Topic8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day02/topic08/Topic8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day02/Topic9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day02/topic9/Topic9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day02/arrayObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day04/Topic3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day04/Topic3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -20,116 +51,60 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/day01/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="448">
-                <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/day01/topic13/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-              <folding>
-                <element signature="e#908#909#0" expanded="true" />
-                <element signature="e#934#935#0" expanded="true" />
-                <element signature="e#965#966#0" expanded="true" />
-                <element signature="e#992#993#0" expanded="true" />
-                <element signature="e#1025#1026#0" expanded="true" />
-                <element signature="e#1054#1055#0" expanded="true" />
-                <element signature="e#1131#1132#0" expanded="true" />
-                <element signature="e#1157#1158#0" expanded="true" />
-                <element signature="e#1187#1188#0" expanded="true" />
-                <element signature="e#1213#1214#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/day01/topic1/Div.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/day01/topic1/Mul.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1148">
-              <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/day01/topic1/Sub.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/day01/Topic3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37884">
-              <caret line="1412" column="30" selection-start-line="1412" selection-start-column="28" selection-end-line="1412" selection-end-column="30" />
-              <folding>
-                <element signature="e#23072#23073#0" expanded="true" />
-                <element signature="e#23112#23113#0" expanded="true" />
-                <element signature="e#55800#55801#0" expanded="true" />
-                <element signature="e#55844#55845#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5053981">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic10/Topic10.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="28">
+                  <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/day02/Topic4.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="196">
+                  <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic11/case">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="84">
+                  <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="168">
+                  <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -140,29 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/day01/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/day01/Topic1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day01/Topic1/Topic1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day01/Topic1/parametersJudge.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day01/topic1/parametersJudge.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day01/topic1/ParametersJudge.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day01/topic1/Topic1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day01/topic1/Sub.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day01/topic1/Mul.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day01/mumuTopic1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day04/Topic2/MapEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day01/topic1/ParamJudge.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day01/Topic3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day01/Topic4.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day01/topic1/Add.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day01/Topic2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day01/Topic5.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day01/Topic6.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day01/Topic7.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day01/Topic8BAK.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day01/Topic8.java" />
-        <option value="$PROJECT_DIR$/src/main/java/day01/Topic9BAK.java" />
         <option value="$PROJECT_DIR$/src/main/java/day01/Topic9Bak.java" />
         <option value="$PROJECT_DIR$/src/main/java/day01/Topic10.java" />
         <option value="$PROJECT_DIR$/src/main/java/day01/Topic9.java" />
@@ -173,15 +125,55 @@
         <option value="$PROJECT_DIR$/src/main/java/day01/topic13/UserBak.java" />
         <option value="$PROJECT_DIR$/src/main/java/day01/topic13/Topic13.java" />
         <option value="$PROJECT_DIR$/src/main/java/day01/topic13/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/Topic1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/Topic3Bak.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/T4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/Topic4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/Topic5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/Topic6.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/Topic6Bak.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/Topic7.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic07/Sharp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic07/Circular.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic07/Teacher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic07/Medium.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic07/BlackBoard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic07/Topic7.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic07/MathTeacher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic08/CaseStudent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic08/CaseTeacher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic08/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic08/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic08/Teacher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/Topic9.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/Topic11/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day04/Topic3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/Topic11/Topic11.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic9/Cars.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic9/BMW.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic9/Mercedes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic9/Road.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic9/CountryRoad.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic9/Topic9.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic9/Highway.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/1" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic10/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day01/Topic2.java" />
         <option value="$PROJECT_DIR$/src/main/java/day01/topic1/Div.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic11/test.log" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic11/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic11/Topic11.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic11/case" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/hw_d02" />
+        <option value="$PROJECT_DIR$/src/main/java/day02/topic10/Topic10.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="62" />
-    <option name="y" value="23" />
-    <option name="width" value="1218" />
-    <option name="height" value="777" />
+    <option name="x" value="106" />
+    <option name="y" value="170" />
+    <option name="width" value="1214" />
+    <option name="height" value="577" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -214,43 +206,32 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="day01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="day01" type="462c0819:PsiDirectoryNode" />
-              <item name="topic1" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="F:/测开对标/day08/cakes-java-core/build.gradle" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="day02" />
       <recent name="day01.topic13" />
       <recent name="day01" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\codingFiles\homework\src\main\java\day02\topic08" />
+      <recent name="E:\codingFiles\homework\src\main\java\day02" />
       <recent name="E:\codingFiles\homework\src\main\java" />
     </key>
   </component>
@@ -266,53 +247,48 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Topic12">
+  <component name="RunManager" selected="Application.Topic3">
     <configuration name="Topic10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01.Topic10" />
+      <option name="MAIN_CLASS_NAME" value="day02.topic10.Topic10" />
       <module name="com.gudanni.homework.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Topic12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01.Topic12" />
+    <configuration name="Topic11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02.topic11.Topic11" />
+      <module name="com.gudanni.homework.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02.Topic2" />
+      <module name="com.gudanni.homework.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Topic3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02.Topic3" />
       <module name="com.gudanni.homework.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Topic9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01.Topic9" />
+      <option name="MAIN_CLASS_NAME" value="day02.topic9.Topic9" />
       <module name="com.gudanni.homework.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.gudanni.homework.main" />
-      <option name="PACKAGE_NAME" value="day01" />
-      <option name="MAIN_CLASS_NAME" value="day01.Topic11" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Topic11.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.gudanni.homework.main" />
-      <option name="PACKAGE_NAME" value="day01" />
-      <option name="MAIN_CLASS_NAME" value="day01.Topic11" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Topic12" />
-        <item itemvalue="JUnit.Topic11.test" />
+        <item itemvalue="Application.Topic3" />
+        <item itemvalue="Application.Topic2" />
         <item itemvalue="Application.Topic10" />
-        <item itemvalue="JUnit.Topic11" />
+        <item itemvalue="Application.Topic11" />
         <item itemvalue="Application.Topic9" />
       </list>
     </recent_temporary>
@@ -321,50 +297,50 @@
     <configuration />
   </component>
   <component name="TestHistory">
-    <history-entry file="Topic11_test - 2019.12.29 at 22h 33m 54s.xml">
-      <configuration name="Topic11.test" configurationId="JUnit" />
+    <history-entry file="Topic6Bak_test4 - 2020.01.04 at 23h 58m 56s.xml">
+      <configuration name="Topic6Bak.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Topic11_test - 2019.12.29 at 22h 34m 08s.xml">
-      <configuration name="Topic11.test" configurationId="JUnit" />
+    <history-entry file="Topic6Bak_test4 - 2020.01.05 at 00h 00m 04s.xml">
+      <configuration name="Topic6Bak.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Topic11_test - 2019.12.29 at 22h 34m 36s.xml">
-      <configuration name="Topic11.test" configurationId="JUnit" />
+    <history-entry file="Topic6Bak_test4 - 2020.01.05 at 00h 01m 38s.xml">
+      <configuration name="Topic6Bak.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Topic11_test - 2019.12.29 at 22h 35m 13s.xml">
-      <configuration name="Topic11.test" configurationId="JUnit" />
+    <history-entry file="Topic6Bak_test4 - 2020.01.05 at 00h 01m 49s.xml">
+      <configuration name="Topic6Bak.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Topic11_test - 2019.12.29 at 22h 35m 36s.xml">
-      <configuration name="Topic11.test" configurationId="JUnit" />
+    <history-entry file="Topic6Bak_test5 - 2020.01.05 at 00h 02m 52s.xml">
+      <configuration name="Topic6Bak.test5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Topic11_test - 2019.12.29 at 22h 35m 41s.xml">
-      <configuration name="Topic11.test" configurationId="JUnit" />
+    <history-entry file="Topic6Bak - 2020.01.05 at 00h 04m 11s.xml">
+      <configuration name="Topic6Bak" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Topic11_test - 2019.12.29 at 22h 36m 28s.xml">
-      <configuration name="Topic11.test" configurationId="JUnit" />
+    <history-entry file="Topic6Bak_test6 - 2020.01.05 at 00h 04m 24s.xml">
+      <configuration name="Topic6Bak.test6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Topic11_test - 2019.12.29 at 22h 37m 14s.xml">
-      <configuration name="Topic11.test" configurationId="JUnit" />
+    <history-entry file="Topic6Bak_test7 - 2020.01.05 at 00h 06m 17s.xml">
+      <configuration name="Topic6Bak.test7" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Topic11_test - 2019.12.29 at 22h 49m 18s.xml">
-      <configuration name="Topic11.test" configurationId="JUnit" />
+    <history-entry file="Topic6Bak_test8 - 2020.01.05 at 00h 08m 11s.xml">
+      <configuration name="Topic6Bak.test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Topic11_test - 2019.12.29 at 22h 49m 51s.xml">
-      <configuration name="Topic11.test" configurationId="JUnit" />
+    <history-entry file="Topic6Bak_test9 - 2020.01.05 at 00h 10m 41s.xml">
+      <configuration name="Topic6Bak.test9" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.45444685" visible="true" weight="0.18070363" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.54555315" side_tool="true" visible="true" weight="0.18070363" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47976878" visible="true" weight="0.21002132" />
+      <window_info id="Structure" order="1" sideWeight="0.5202312" side_tool="true" visible="true" weight="0.21002132" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3340564" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2494577" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -394,72 +370,255 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/annotation/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/Topic3Bak.java" />
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/Topic5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/T4.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/Topic6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="162" column="3" selection-start-line="162" selection-start-column="3" selection-end-line="162" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day01/topic1/Mul.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="359" column="25" selection-start-line="359" selection-start-column="25" selection-end-line="359" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic07/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic07/Medium.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic07/Sharp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic07/MathTeacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic07/BlackBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic07/Circular.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic07/Topic7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic08/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic08/Teacher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day04/Topic2/MapEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day01/mumuCounter">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/builders/JUnit4Builder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic08/Topic8.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day01/topic1/ParamJudge.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/day04/Topic3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="20" />
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day01/mumuTopic1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic08/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="329" column="28" selection-start-line="329" selection-start-column="28" selection-end-line="329" selection-end-column="28" />
+        <state relative-caret-position="452">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
-            <element signature="e#7005#7006#0" expanded="true" />
-            <element signature="e#7047#7048#0" expanded="true" />
-            <element signature="e#7599#7600#0" expanded="true" />
-            <element signature="e#7644#7645#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic9/Cars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic9/BMW.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="260" column="27" selection-start-line="260" selection-start-column="27" selection-end-line="260" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic9/Mercedes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic9/Highway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic9/Topic9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic9/Road.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic9/CountryRoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/1" />
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="261" selection-start-line="261" selection-end-line="261" />
+          <folding>
+            <element signature="e#8824#8825#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/day01/topic1/Add.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="77" column="59" lean-forward="true" selection-start-line="77" selection-start-column="59" selection-end-line="77" selection-end-column="59" />
+        <state relative-caret-position="214">
+          <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -468,180 +627,283 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/day01/Topic2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+        <state relative-caret-position="214">
+          <caret line="65" column="39" lean-forward="true" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="174" column="21" lean-forward="true" selection-start-line="174" selection-start-column="21" selection-end-line="174" selection-end-column="21" />
+          <folding>
+            <element signature="e#7284#7285#0" expanded="true" />
+            <element signature="e#7312#7313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="1555" column="22" selection-start-line="1555" selection-start-column="22" selection-end-line="1555" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day01/topic1/Div.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1652">
+          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day01/Topic4.java">
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day01/Topic5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day01/Topic6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day01/Topic7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day01/Topic8BAK.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/day01/Topic8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day01/Topic9Bak.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/day01/Topic9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day01/Topic11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        <state relative-caret-position="38640">
+          <caret line="1451" column="20" selection-start-line="1451" selection-start-column="16" selection-end-line="1451" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#10189#10190#0" expanded="true" />
+            <element signature="e#10216#10217#0" expanded="true" />
+            <element signature="e#10398#10399#0" expanded="true" />
+            <element signature="e#10430#10431#0" expanded="true" />
+            <element signature="e#13541#13542#0" expanded="true" />
+            <element signature="e#13596#13597#0" expanded="true" />
+            <element signature="e#15414#15415#0" expanded="true" />
+            <element signature="e#15459#15460#0" expanded="true" />
+            <element signature="e#24549#24550#0" expanded="true" />
+            <element signature="e#24603#24604#0" expanded="true" />
+            <element signature="e#30347#30348#0" expanded="true" />
+            <element signature="e#30384#30385#0" expanded="true" />
+            <element signature="e#30684#30685#0" expanded="true" />
+            <element signature="e#30716#30717#0" expanded="true" />
+            <element signature="e#46390#46391#0" expanded="true" />
+            <element signature="e#46455#46456#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day01/Topic10.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic10/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="1260">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day01/Topic12.java">
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="197">
+          <caret line="475" column="17" selection-start-line="475" selection-start-column="17" selection-end-line="475" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day01/topic13/Topic13.java">
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="214">
+          <caret line="1279" column="16" selection-start-line="1279" selection-start-column="16" selection-end-line="1279" selection-end-column="16" />
+          <folding>
+            <element signature="e#19072#19073#0" expanded="true" />
+            <element signature="e#19130#19131#0" expanded="true" />
+            <element signature="e#19296#19297#0" expanded="true" />
+            <element signature="e#19379#19380#0" expanded="true" />
+            <element signature="e#23597#23598#0" expanded="true" />
+            <element signature="e#23651#23652#0" expanded="true" />
+            <element signature="e#24298#24299#0" expanded="true" />
+            <element signature="e#24363#24364#0" expanded="true" />
+            <element signature="e#31026#31027#0" expanded="true" />
+            <element signature="e#31064#31065#0" expanded="true" />
+            <element signature="e#42095#42096#0" expanded="true" />
+            <element signature="e#42159#42160#0" expanded="true" />
+            <element signature="e#42228#42229#0" expanded="true" />
+            <element signature="e#42304#42305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/day01/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="448">
-            <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          </first_editor>
+        <state split_layout="SPLIT">
+          <first_editor />
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic11/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding>
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day01/Topic10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic11/case">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic11/Topic11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="150" column="11" lean-forward="true" selection-start-line="150" selection-start-column="11" selection-end-line="150" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/hw_d02">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/Topic2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/Topic3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/topic10/Topic10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/arrayObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/arithmetic">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day01/topic13/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1025#1026#0" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
-            <element signature="e#1131#1132#0" expanded="true" />
-            <element signature="e#1157#1158#0" expanded="true" />
-            <element signature="e#1187#1188#0" expanded="true" />
-            <element signature="e#1213#1214#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day01/topic1/Mul.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1148">
-          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day01/topic1/Sub.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/day02/Topic4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day01/Topic3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37884">
-          <caret line="1412" column="30" selection-start-line="1412" selection-start-column="28" selection-end-line="1412" selection-end-column="30" />
-          <folding>
-            <element signature="e#23072#23073#0" expanded="true" />
-            <element signature="e#23112#23113#0" expanded="true" />
-            <element signature="e#55800#55801#0" expanded="true" />
-            <element signature="e#55844#55845#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day01/topic1/Div.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>com.gudanni.homework</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>

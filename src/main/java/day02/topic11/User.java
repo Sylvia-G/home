@@ -1,5 +1,8 @@
-package day02.Topic11;
+package day02.topic11;
 
+/**
+ * @author Sylvia-G
+ */
 public class User {
     private Integer id;
     private String name;

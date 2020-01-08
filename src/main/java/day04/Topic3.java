@@ -1,7 +1,7 @@
 package day04;
 
 /**
- * 曾经的一个作业题, day02/Topic11
+ * 曾经的一个作业题, day02/topic11
  *
  * @author haoc
  */

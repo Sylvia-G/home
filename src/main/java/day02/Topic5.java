@@ -7,18 +7,18 @@ package day02;
  *
  * 杨辉三角的样式:
  *
- *               1
- *              1 1
- *             1 2 1
- *            1 2 3 2 1
- *           1 2 3 5 3 2 1
+ *          1
+ *          1   1
+ *          1   2   1
+ *          1   3   3   1
+ *          1   4   6   4   1
+ *          1   5  10  10   5   1
  * @author haoc
  */
 public class Topic5 {
     public static void main(String[] args) {
         Topic5 topic5 =  new Topic5();
         topic5.pascalsTriangle(5);
-
     }
 
     private void pascalsTriangle(int num){
